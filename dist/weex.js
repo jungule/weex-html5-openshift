@@ -304,7 +304,7 @@
 	    return;
 	  }
 	  var host = location.hostname;
-	  var port = 8080;
+	  var port = 8000;
 	  var client = new WebSocket('ws://' + host + ':' + port + '/', 'echo-protocol');
 	  client.onerror = function () {
 	    console.log('refresh controller websocket connection error');
